@@ -15,7 +15,7 @@ export default function ContactMe() {
         <h4 className="text-4xl font-semibold items-center text-center">
           I have got just what you need.
           <span className=" decoration-[#F7AB0A]/50 underline">
-            Let's Talk.
+            Lets Talk.
           </span>
         </h4>
         <div className="space-y-7">

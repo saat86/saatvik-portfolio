@@ -3,7 +3,7 @@ import Ecomm from "../assets/Ecomm.png";
 import kanban from "../assets/kanban.png";
 import Image from "next/image";
 
-export default function () {
+export default  function Projects () {
   const projectno = [1, 2, 3];
   const projectpic = [Ecomm, kanban];
   return (
@@ -20,7 +20,7 @@ export default function () {
        scrollbar-thumb-[#F7AB0A]/80  scrollbar-thin"
       >
         {projectno.map((project, i) => (
-          <div className="w-screen flex-shrink-0 snap-center space-y-5 items-center justify-center p-20 md:p-44 h-screen ">
+          <div key={i}  className="w-screen flex-shrink-0 snap-center space-y-5 items-center justify-center p-20 md:p-44 h-screen ">
             <Image src={projectpic[i]} 
                     width={600}
                     height={600}
