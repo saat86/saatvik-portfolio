@@ -21,7 +21,7 @@ export default function About() {
     >
       <h3
         className="absolute  uppercase tracking-[20px] text-gray-500  text-xl sm:text-2xl top-0.5 sm:top-3.5"
-        style={{ top: "3.5rem" }}
+        style={{ top: "1.5rem" }}
       >
         About
       </h3>

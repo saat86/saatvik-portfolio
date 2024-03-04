@@ -26,7 +26,10 @@ export default function Home() {
 <Skills/>
 </section>
 <section  id ='projects'className='snap-start'>
-<Projects/>
+<Projects
+title={["E-comm admin panel","kanban board"]}
+
+/>
 </section>
 <section  id ='contact'className='snap-start'>
 <ContactMe/>

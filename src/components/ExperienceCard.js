@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 export default function ExperienceCard(props) {
   return (
@@ -35,9 +35,9 @@ export default function ExperienceCard(props) {
         </p>
 
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-            <li>summary points</li>
-            <li> summary points</li>
-            <li>summary points</li>
+            <li>{props.sp1}</li>
+            <li> {props.sp2}</li>
+            <li>{props.sp3}</li>
         </ul>
 
         </div>

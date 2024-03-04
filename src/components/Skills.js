@@ -6,11 +6,11 @@ export default function Skills() {
     <div
       className="h-screen relative flex flex-col text-center md:text-left
      xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0
-      mx-auto items-center"
+      mx-auto items-center flex-wrap"
     >
       <h3
         className="absolute  uppercase tracking-[20px] text-gray-500 text-2xl "
-        style={{ top: "3.5rem" }}
+        style={{ top: "1.5rem" }}
       >
         skills
       </h3>

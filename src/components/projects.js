@@ -3,14 +3,14 @@ import Ecomm from "../assets/Ecomm.png";
 import kanban from "../assets/kanban.png";
 import Image from "next/image";
 
-export default  function Projects () {
-  const projectno = [1, 2, 3];
+export default  function Projects (props) {
+  const projectno = [1, 2];
   const projectpic = [Ecomm, kanban];
   return (
     <div className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center">
       <h3
         className="absolute  uppercase tracking-[20px] text-gray-500 text-2xl "
-        style={{ top: "3.5rem" }}
+        style={{ top: "1.5rem" }}
       >
         projects
       </h3>
@@ -29,8 +29,9 @@ export default  function Projects () {
             <div>
               <h4 className="text-4xl font-semibold items-center justify-center text-center">
                 {" "}
-                case study {i + 1} of {projectno.length}
+                {props.title[i]}
               </h4>
+              <p className="text-sm items-center justify-center text-center"></p>
             </div>
           </div>
         ))}
