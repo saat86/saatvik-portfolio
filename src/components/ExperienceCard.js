@@ -5,7 +5,7 @@ export default function ExperienceCard(props) {
   return (
     <article className='flex flex-col rounded-lg itmes-center space-y-7 flex-shrink-0
       w-[300px] md:w-[350px] xl:w-[400px] snap-center bg-[#292929] p-6 
-      hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+      hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden h-fit'>
         <img
         src={props.companyImg}
         className="h-32 w-32 rounded-full object-cover object-center xl:w-[150px] xl:h-[150px]" 

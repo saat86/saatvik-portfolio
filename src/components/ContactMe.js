@@ -4,10 +4,10 @@ import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 export default function ContactMe() {
   return (
     <div
-      className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10
+      className="h-screen flex relative flex-col text-center md:text-left max-w-7xl px-10
      justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute  uppercase tracking-[20px] text-gray-500 text-2xl xl:mb-10 sm:tracking-[15px]" style={{top:'3.5rem'}}>
+      <h3 className="  uppercase tracking-[20px] text-gray-500 text-2xl xl:mb-10 sm:tracking-[15px]" >
         contact
       </h3>
       

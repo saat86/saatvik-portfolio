@@ -30,13 +30,13 @@ export default function Home() {
     };
   }, [isMobileDevice]);
 
-  if (isMobileDevice) {
-    return (
-      <div className='bg-[rgb(36,36,36)] text-white h-screen flex w-full '>
-        <p className='w-full m-auto text-center'>  Woah!! I am delicate , Please operate on bigger screen</p>      
-      </div>
-    );
-  }
+  // if (isMobileDevice) {
+  //   return (
+  //     <div className='bg-[rgb(36,36,36)] text-white h-screen flex w-full '>
+  //       <p className='w-full m-auto text-center'>  Woah!! I am delicate , Please operate on bigger screen</p>      
+  //     </div>
+  //   );
+  // }
 
   return (
     <>
@@ -55,11 +55,11 @@ export default function Home() {
           <Skills />
         </section>
         <section id='projects' className='snap-start'>
-          <Projects title={['E-comm admin panel', 'kanban board']} />
+          <Projects title={['E-comm admin panel', 'kanban board','Tutube','Tabs Responsive MUI']} />
         </section>
-        <section id='contact' className='snap-start'>
+       {!isMobileDevice &&(  <section id='contact' className='snap-start'>
           <ContactMe />
-        </section>
+        </section>)}
       </div>
     </>
   );

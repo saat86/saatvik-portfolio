@@ -5,19 +5,19 @@ export default function Skills() {
   return (
     <div
       className="h-screen relative flex flex-col text-center md:text-left
-     xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0
-      mx-auto items-center flex-wrap"
+      max-w-[2000px]  min-h-screen  
+      mx-auto items-center "
     >
       <h3
-        className="absolute  uppercase tracking-[20px] text-gray-500 text-2xl "
-        style={{ top: "1.5rem" }}
+        className="uppercase tracking-[20px] text-gray-500 text-2xl "
+        
       >
         skills
       </h3>
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm ">
+      <h3 className=" uppercase tracking-[3px] text-gray-500 text-sm mt-12">
         Hover over a skill for current efficiency
       </h3>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-4 gap-5 mt-28">
         <SkillStyle
           proff="80%"
           img="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png"
